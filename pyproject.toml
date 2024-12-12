@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "facing_DUOAPI"
+version = "0.1.0"
+authors = [
+  { name="Karel van der Linden", email="kcvanderlinden@outlook.com" },
+]
+description = "DUO (Dienst Uitvoering Onderwijs) API interface with python"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "requests ~=2.31.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/kcvanderlinden/DUO-API-interface"
+Issues = "https://github.com/kcvanderlinden/DUO-API-interface/issues"

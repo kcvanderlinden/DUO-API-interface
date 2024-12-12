@@ -10,10 +10,10 @@ This Python module provides a simple interface to interact with the Dienst Uitvo
 
 **Installation:**
 
-This module can be installed directly from this repository using pip:
+You can install this module directly from this repository using pip:
 
 ```bash
-pip install <your_repository_name>  
+pip install git+https://github.com/kcvanderlinden/DUO-API-interface.git  
 ```
 
 
@@ -49,5 +49,3 @@ for row in result:
 
 * You will need an active internet connection to use this module.
 * The DUO API documentation can be found at [https://data.duo.nl/](https://data.duo.nl/).
-
-
